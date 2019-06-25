@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato,sans-serif;
+    line-height: 1.15;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: #343a40;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+header p{
+    padding: 0 10px;
+}
+main{
+    margin-top: 25px;
+    max-width: 90%;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+main p, main h1, main h2, main h3, section,
+form{
+    margin-top: 15px;
+    padding: 0 10px;
+    font-family: "Cormorant Garamond";
+}
+main h2{
+    text-align: center;
+    margin-top: 60px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+#contact-form div{
+    width: 80%;
+}
+#contact-form label{
+    display: block;
+    width: 175px;
+}
+#contact-form input{
+    width: 250px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-bottom: 20px;
+}
+section button{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    background-color: #40c157;
+    color: white;
+}
+#custom-donation-txtbox{
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+#custom-donation-ckbox{
+    margin-top: 15px;
+}
+footer{
+    margin-top: 130px;
+    background-color: #343a40;
+    color: white;
+    height: 50px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+@media only screen and (min-width: 600px) {
+    main{
+        max-width: 70%;
+    }
+    #contact-form div{
+        width: 50%;
+    }
+    #contact-form label{
+        width: 255px;
+    }
+    #contact-form input{
+        width: 300px;
+        height: 40px;
+        font-size: 1.2rem;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+  }
